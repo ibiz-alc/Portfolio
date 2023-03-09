@@ -32,7 +32,7 @@ export default function Home() {
           <h1 className={inter.className} style={{ fontWeight: "800", fontSize: "2rem" }}>Verasit Wisitsophon</h1>
           <i className="cib-evernote"></i>
           <p className={inter.className}>
-            I'm <span style={{ color: "blue", fontSize: "2rem" }}>Mobile Developer</span>
+            I&apos;m <span style={{ color: "blue", fontSize: "2rem" }}>Mobile Developer</span>
           </p>
           <div className={styles.my_social}>
             <Link href="https://github.com/ibiz-alc" rel="noopener noreferrer" target="_blank"><div className={styles.github}></div></Link>
@@ -45,12 +45,12 @@ export default function Home() {
             <div className="col-start-2 col-span-10 mt-10">
             <h1 style={{ marginTop: "5rem" }}>About</h1>
             <p>
-            I like to code, like the world of Mobile Application. I love creating cool things and helping people develop awesome things. Also, my main thing is that I am good at building beautiful app interfaces. For me, making useful stuff for people is really important. That's why I always want to create beautiful user experience using modern technologies for this reason I spend a lot of time learning about it
+            I like to code, like the world of Mobile Application. I love creating cool things and helping people develop awesome things. Also, my main thing is that I am good at building beautiful app interfaces. For me, making useful stuff for people is really important. That&apos;s why I always want to create beautiful user experience using modern technologies for this reason I spend a lot of time learning about it
             </p>
 
             <div className="grid grid-cols-1 tablet:grid-cols-12 gap-4 mt-6">
               <div className="tablet:col-span-12 laptop:col-span-4">
-                <Image src="/profile.png" alt='' />
+                <img src="/profile.png" alt='' />
               </div>
               <div className="tablet:col-span-12 laptop:col-span-8">
                 <h3 className="tablet:text-center tablet:ml-0 laptop:text-left laptop:ml-24">Mobile Developer</h3>
