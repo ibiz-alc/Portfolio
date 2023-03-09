@@ -43,20 +43,20 @@
 }
 
 .twitter {
-  background-image: url('/twitter.svg');
+  background-image: url('/Portfolio/twitter.svg');
   width: 24px !important;
   height: 24px;
 }
 
 .github {
-  background-image: url('/github.svg');
+  background-image: url('/Portfolio/github.svg');
   width: 24px !important;
   height: 24px;
   margin: 0 16px;
 }
 
 .linkedin {
-  background-image: url('/linkedin.svg');
+  background-image: url('/Portfolio/linkedin.svg');
   width: 24px !important;
   height: 24px;
 }
