@@ -1,11 +1,283 @@
+.main:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  /* padding: 6rem; */
   min-height: 100vh;
 }
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background: url(/334901661_762010642044544_3857866615127120358_n.jpg) center no-repeat;
+  opacity: 0.3;
+  background-size: cover;
+  position: relative;
+}
+
+.my_self {
+  position: absolute;
+  top: 50% !important;
+  left: 15%;
+}
+
+.my_self1 {
+  
+}
+
+.my_social {
+  display: flex;
+  align-items: center !important;
+  margin-top: 16px;
+}
+
+.twitter {
+  background-image: url('/twitter.svg');
+  width: 24px !important;
+  height: 24px;
+}
+
+.github {
+  background-image: url('/github.svg');
+  width: 24px !important;
+  height: 24px;
+  margin: 0 16px;
+}
+
+.linkedin {
+  background-image: url('/linkedin.svg');
+  width: 24px !important;
+  height: 24px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  margin: 0.5rem 0 0 1rem;
+  width: 48px;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.about h1,
+.skills h1,
+.resume h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #45505b;
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+
+.about p {
+  text-align: center;
+}
+
+.fnt_start {
+  text-align: start !important;
+}
+
+.about h1::before,
+.skills h1::before,
+.resume h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.about h1::after,
+.skills h1::after,
+.resume h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.about ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #0563bb;
+  line-height: 0;
+}
+
+.about ul {
+  text-align: start !important;
+}
+
+.about li {
+  margin: 1rem 0 !important;
+}
+
+/* .skills, .resume {
+  display: block;
+  overflow: hidden;
+} */
+
+.skills {
+  width: 100%;
+}
+
+.skills h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #45505b;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: #45505b;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+.resume-content-summary {
+  align-items: baseline;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+.resume .resume-item1::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item1 {
+  padding: 0 0 20px 40px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.pb-0 {
+  padding-bottom: 0!important;
+}
+
+.resume .resume-item h4,
+.resume .resume-item1 h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5,
+.resume .resume-item1 h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+
 
 .description {
   display: inherit;
