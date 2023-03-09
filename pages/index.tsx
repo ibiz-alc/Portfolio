@@ -50,7 +50,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 tablet:grid-cols-12 gap-4 mt-6">
               <div className="tablet:col-span-12 laptop:col-span-4">
-                <img src="/profile.png" />
+                <Image src="/profile.png" alt='' />
               </div>
               <div className="tablet:col-span-12 laptop:col-span-8">
                 <h3 className="tablet:text-center tablet:ml-0 laptop:text-left laptop:ml-24">Mobile Developer</h3>
