@@ -282,13 +282,13 @@ export default function Home() {
                         <em><b>Kotlin & Jetpack Compose</b></em>
                       </p>
                       <div className={`${styles["image-container"]}`}>
-                        <Link href="https://play.google.com/store/apps/details?id=com.thaivivat.superapp" rel="noopener noreferrer" target="_blank"><Image src="/tvi.webp" alt="tvi" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.thaivivat.superapp" rel="noopener noreferrer" target="_blank"><img src="/tvi.webp" alt="tvi" width={48} height={48} /></Link>
                       </div>
                       <p className='mt-2'>
                         <em><b>Jetpack Compose</b></em>
                       </p>
                       <div className={`${styles["image-container"]}`}>
-                        <Image src="/claim_app.png" alt="claim_app" width={48} height={48} />
+                        <img src="/claim_app.png" alt="claim_app" width={48} height={48} />
                       </div>
                     </div>
 
@@ -317,41 +317,41 @@ export default function Home() {
                         <em><b>Kotlin & Java, etc.</b></em>
                       </p>
                       <div className={`${styles["image-container"]}`}>
-                        <Link href="https://play.google.com/store/apps/details?id=com.samsung.th.galaxyappcenter&hl=en&gl=US" rel="noopener noreferrer" target="_blank"><Image src="/galaxy_reward.png" alt="galaxy_reward" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.samsung.privilege&hl=th&gl=US" rel="noopener noreferrer" target="_blank"><Image src="/galaxy_gift.png" alt="galaxy_gift" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.truecoffee" rel="noopener noreferrer" target="_blank"><Image src="/true.png" alt="true" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=th.co.crie.tron2.android" rel="noopener noreferrer" target="_blank"><Image src="/dtac.webp" alt="webp" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.greyhound" rel="noopener noreferrer" target="_blank"><Image src="/greyhound.png" alt="greyhound" width={48} height={48} /></Link>
-                        <Image src="/bzb.png" alt="bzb" width={48} height={48} />
-                        <Image src="/reward_buzz.png" alt="reward_buzz" width={48} height={48} />
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.beerlao" rel="noopener noreferrer" target="_blank"><Image src="/beerlao.png" alt="beerlao" width={48} height={48} /></Link>
-                        <Link href="https://apps.apple.com/th/app/healthy-living/id1120542025" rel="noopener noreferrer" target="_blank"><Image src="/hl.png" alt="hl" width={48} height={48} /></Link>
-                        <Image src="/synnex.png" alt="synnex" width={48} height={48} />
-                        <Image src="/get_van.png" alt="get_van" width={48} height={48} />
-                        <Image src="/what_sale.png" alt="what_sale" width={48} height={48} />
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.tgfone" rel="noopener noreferrer" target="_blank"><Image src="/tg.png" alt="tg" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.blackmores" rel="noopener noreferrer" target="_blank"><Image src="/blackmore.png" alt="blackmore" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.mama" rel="noopener noreferrer" target="_blank"><Image src="/spc.png" alt="spc" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.mbk" rel="noopener noreferrer" target="_blank"><Image src="/mbk.png" alt="mbk" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.megabangna" rel="noopener noreferrer" target="_blank"><Image src="/mega_bangna.png" alt="mega_bangna" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.oceanlife" rel="noopener noreferrer" target="_blank"><Image src="/ocean_life.png" alt="ocean_life" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.enfa.geniusbaby" rel="noopener noreferrer" target="_blank"><Image src="/mj.png" alt="mj" width={48} height={48} /></Link>
-                        <Image src="/splus.png" alt="splus" width={48} height={48} />
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.royalcanin" rel="noopener noreferrer" target="_blank"><Image src="/royal_canin.png" alt="royal_canin" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.sme" rel="noopener noreferrer" target="_blank"><Image src="/sme.png" alt="sme" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.apps.MyXL" rel="noopener noreferrer" target="_blank"><Image src="/xl.png" alt="xl" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.yamahareward" rel="noopener noreferrer" target="_blank"><Image src="/yamaha.png" alt="yamaha" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.lawson" rel="noopener noreferrer" target="_blank"><Image src="/lawson.webp" alt="lawson" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.burgerking" rel="noopener noreferrer" target="_blank"><Image src="/burger_king.webp" alt="burger_king" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.samsung.th.galaxyappcenter&hl=en&gl=US" rel="noopener noreferrer" target="_blank"><img src="/galaxy_reward.png" alt="galaxy_reward" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.samsung.privilege&hl=th&gl=US" rel="noopener noreferrer" target="_blank"><img src="/galaxy_gift.png" alt="galaxy_gift" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.truecoffee" rel="noopener noreferrer" target="_blank"><img src="/true.png" alt="true" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=th.co.crie.tron2.android" rel="noopener noreferrer" target="_blank"><img src="/dtac.webp" alt="webp" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.greyhound" rel="noopener noreferrer" target="_blank"><img src="/greyhound.png" alt="greyhound" width={48} height={48} /></Link>
+                        <img src="/bzb.png" alt="bzb" width={48} height={48} />
+                        <img src="/reward_buzz.png" alt="reward_buzz" width={48} height={48} />
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.beerlao" rel="noopener noreferrer" target="_blank"><img src="/beerlao.png" alt="beerlao" width={48} height={48} /></Link>
+                        <Link href="https://apps.apple.com/th/app/healthy-living/id1120542025" rel="noopener noreferrer" target="_blank"><img src="/hl.png" alt="hl" width={48} height={48} /></Link>
+                        <img src="/synnex.png" alt="synnex" width={48} height={48} />
+                        <img src="/get_van.png" alt="get_van" width={48} height={48} />
+                        <img src="/what_sale.png" alt="what_sale" width={48} height={48} />
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.tgfone" rel="noopener noreferrer" target="_blank"><img src="/tg.png" alt="tg" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.blackmores" rel="noopener noreferrer" target="_blank"><img src="/blackmore.png" alt="blackmore" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.mama" rel="noopener noreferrer" target="_blank"><img src="/spc.png" alt="spc" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.mbk" rel="noopener noreferrer" target="_blank"><img src="/mbk.png" alt="mbk" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.megabangna" rel="noopener noreferrer" target="_blank"><img src="/mega_bangna.png" alt="mega_bangna" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.oceanlife" rel="noopener noreferrer" target="_blank"><img src="/ocean_life.png" alt="ocean_life" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.enfa.geniusbaby" rel="noopener noreferrer" target="_blank"><img src="/mj.png" alt="mj" width={48} height={48} /></Link>
+                        <img src="/splus.png" alt="splus" width={48} height={48} />
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.royalcanin" rel="noopener noreferrer" target="_blank"><img src="/royal_canin.png" alt="royal_canin" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.sme" rel="noopener noreferrer" target="_blank"><img src="/sme.png" alt="sme" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.apps.MyXL" rel="noopener noreferrer" target="_blank"><img src="/xl.png" alt="xl" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.yamahareward" rel="noopener noreferrer" target="_blank"><img src="/yamaha.png" alt="yamaha" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.lawson" rel="noopener noreferrer" target="_blank"><img src="/lawson.webp" alt="lawson" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.burgerking" rel="noopener noreferrer" target="_blank"><img src="/burger_king.webp" alt="burger_king" width={48} height={48} /></Link>
                       </div>
                       <p className='mt-2'>
                         <em><b>Flutter, etc.</b></em>
                       </p>
                       <div className={`${styles["image-container"]}`}>
-                        <Link href="https://play.google.com/store/apps/details?id=com.pea.peavolta" rel="noopener noreferrer" target="_blank"><Image src="/pea_volta.webp" alt="pea_volta" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.cloudpos.stamp" rel="noopener noreferrer" target="_blank"><Image src="/bzb_merchant.webp" alt="bzb_merchant" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.buzzpos" rel="noopener noreferrer" target="_blank"><Image src="/bzb_pos.webp" alt="bzb_pos" width={48} height={48} /></Link>
-                        <Link href="https://play.google.com/store/apps/details?id=com.koithe.app.th" rel="noopener noreferrer" target="_blank"><Image src="/koite.png" alt="koite" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.pea.peavolta" rel="noopener noreferrer" target="_blank"><img src="/pea_volta.webp" alt="pea_volta" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.cloudpos.stamp" rel="noopener noreferrer" target="_blank"><img src="/bzb_merchant.webp" alt="bzb_merchant" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.bzbs.buzzpos" rel="noopener noreferrer" target="_blank"><img src="/bzb_pos.webp" alt="bzb_pos" width={48} height={48} /></Link>
+                        <Link href="https://play.google.com/store/apps/details?id=com.koithe.app.th" rel="noopener noreferrer" target="_blank"><img src="/koite.png" alt="koite" width={48} height={48} /></Link>
                       </div>
                     </div>
 
@@ -373,10 +373,10 @@ export default function Home() {
                         <em><b>Java + Kotlin</b></em>
                       </p>
                       <div className={`${styles["image-container"]}`}>
-                        <Image src="/eunic.png" alt="eunic" width={48} height={48} />
-                        <Image src="/thailand_exhibition.png" alt="thailand_exhibition" width={48} height={48} />
-                        <Image src="/tree_condo.webp" alt="tree_condo" width={48} height={48} />
-                        <Image src="/kaset_brand.png" alt="kaset_brand" width={48} height={48} />
+                        <img src="/eunic.png" alt="eunic" width={48} height={48} />
+                        <img src="/thailand_exhibition.png" alt="thailand_exhibition" width={48} height={48} />
+                        <img src="/tree_condo.webp" alt="tree_condo" width={48} height={48} />
+                        <img src="/kaset_brand.png" alt="kaset_brand" width={48} height={48} />
                       </div>
                     </div>
 
@@ -393,10 +393,10 @@ export default function Home() {
                         <em><b>Java</b></em>
                       </p>
                       <div className={`${styles["image-container"]}`}>
-                        <Image src="/ruindy.webp" alt="ruindy" width={48} height={48} />
-                        <Image src="/watson_th.webp" alt="watson_th" width={48} height={48} />
-                        <Image src="/suraj_intergold.webp" alt="suraj_intergold" width={48} height={48} />
-                        <Image src="/aec.png" alt="aec" width={48} height={48} />
+                        <img src="/ruindy.webp" alt="ruindy" width={48} height={48} />
+                        <img src="/watson_th.webp" alt="watson_th" width={48} height={48} />
+                        <img src="/suraj_intergold.webp" alt="suraj_intergold" width={48} height={48} />
+                        <img src="/aec.png" alt="aec" width={48} height={48} />
                       </div>
                     </div>
                   </div>
