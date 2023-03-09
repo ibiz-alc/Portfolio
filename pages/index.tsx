@@ -7,6 +7,7 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 const assetPrefix = '/Portfolio';
+const age = new Date().getFullYear() - 1991
 
 export default function Home() {
   return (
@@ -67,7 +68,7 @@ export default function Home() {
                       </li>
                       <li>
                         <i className="bi bi-chevron-left" />
-                        <b>Degree:</b> bachelor
+                        <b>Degree:</b> Bachelor
                       </li>
                       <li>
                         <i className="bi bi-chevron-left" />
@@ -79,7 +80,7 @@ export default function Home() {
                     <ul>
                       <li>
                         <i className="bi bi-chevron-left" />
-                        <b>Age:</b> 31
+                        <b>Age:</b> {age}
                       </li>
                       <li>
                         <i className="bi bi-chevron-left" />
